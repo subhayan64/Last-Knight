@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - enemy
+  - ground
+  - ClosingWall
+  - key
+  - cage
+  - ceilingEnemy
+  - wall
+  - gameOver
+  - PauseButton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - Enemy
+  - BossEnemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3667606907
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 2856394063
+    locked: 0
+  - name: boss spider
+    uniqueID: 2855409159
+    locked: 0
+  - name: Player
+    uniqueID: 2879201449
+    locked: 0
+  - name: spider
+    uniqueID: 1163105671
+    locked: 0
+  - name: Foreground
+    uniqueID: 3685192723
+    locked: 0

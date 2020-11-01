@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2728336073435495028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2728336073435495031}
+  - component: {fileID: 2728336073435495030}
+  m_Layer: 0
+  m_Name: Audiomanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2728336073435495031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2728336073435495028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2728336073435495030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2728336073435495028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04eaeea3cc0119b4b9b8bf386831b6e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: theme
+    clip: {fileID: 8300000, guid: 593d1cfcebec42444a0b16f7402cfef5, type: 3}
+    volume: 0.2
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.01
+    loop: 1
+    source: {fileID: 0}
+  - name: run
+    clip: {fileID: 8300000, guid: cca8d91ca852cba4c9078e8d66baee68, type: 3}
+    volume: 1
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.01
+    loop: 0
+    source: {fileID: 0}
+  - name: takeOff
+    clip: {fileID: 8300000, guid: 4ff5460851242f940bfd831d42042edb, type: 3}
+    volume: 0.6
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.1
+    loop: 0
+    source: {fileID: 0}
+  - name: attack
+    clip: {fileID: 8300000, guid: 5ed0b9f76fd566145a15a667c814c9f5, type: 3}
+    volume: 1
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.01
+    loop: 0
+    source: {fileID: 0}
+  - name: land
+    clip: {fileID: 8300000, guid: a1fe00eac042cf8489b17388a2cc522a, type: 3}
+    volume: 1
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.01
+    loop: 0
+    source: {fileID: 0}
+  - name: closingwall
+    clip: {fileID: 8300000, guid: 774121f7d9abde24c9af7533f9d7a52a, type: 3}
+    volume: 1
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.01
+    loop: 0
+    source: {fileID: 0}
+  - name: spidermove
+    clip: {fileID: 8300000, guid: 2353981cbba164649854f070f6373cff, type: 3}
+    volume: 0.6
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: spiderdie
+    clip: {fileID: 8300000, guid: 314b93bc0bb99634fa549b3cc2ab831f, type: 3}
+    volume: 0.6
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: hurt
+    clip: {fileID: 8300000, guid: cac35576a13fd4f4da2f45e86abe424c, type: 3}
+    volume: 1
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: nightAmbient
+    clip: {fileID: 8300000, guid: 103ce930476c9b344b938bf35ead43a8, type: 3}
+    volume: 1
+    volumeVariance: 0.2
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: spider3Sound
+    clip: {fileID: 8300000, guid: 11bde575896d7584f8c75fb7d3e6a3a4, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: spiderbossgrowl
+    clip: {fileID: 8300000, guid: 00da7d208126537428c53fb6ffd89bf4, type: 3}
+    volume: 1
+    volumeVariance: 0.3
+    pitch: 1
+    pitchVariance: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: spiderhurt
+    clip: {fileID: 8300000, guid: 4c04549e2739c1c418322a62b66ad4f8, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: castleAmbient
+    clip: {fileID: 8300000, guid: 08153fd6034477648945864361273483, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: IntroMusic
+    clip: {fileID: 8300000, guid: fd07e7bd61cf62f4389456eb9fe92795, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: birdSound
+    clip: {fileID: 8300000, guid: df70075fa2a76844cbbf411a5d0f16f7, type: 3}
+    volume: 0.9
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: crowdNoise
+    clip: {fileID: 8300000, guid: 2bcce5113e919a449b0d24bafff1ebc8, type: 3}
+    volume: 0.9
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: spiderChatter
+    clip: {fileID: 8300000, guid: 209d20dbac4435541ae6957d6dcc8f23, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: kingShout
+    clip: {fileID: 8300000, guid: 9acdf6778cb3c1e47b9ea6c8655b0580, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: knight_run
+    clip: {fileID: 8300000, guid: 0eeda1f9bf2b4ac46a695fb5150543c2, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: menu
+    clip: {fileID: 8300000, guid: 6a6b220484b598d4aa4d3b968417f55d, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    source: {fileID: 0}
